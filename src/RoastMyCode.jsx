@@ -206,7 +206,7 @@ export default function RoastMyCode() {
     if (!code.trim()) return;
     setLoading(true); setResult(null); setError(null);
     try {
-      const res = await fetch("ttps://roast-code-backend-3-uxwu.onrender.com/api/roast", {
+      const res = await fetch("https://roast-code-backend-3-uxwu.onrender.com/api/roast", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: getRoastPrompt(code, roastLevel) }),
