@@ -127,4 +127,4 @@ This frontend connects to a separate Express backend powered by Gemini API.
 
 ## 📄 License
 
-MIT — do whatever you want with it. Just don't write bad code. 😂
+MIT — do whatever you want with it. Just don't write bad code.😂
